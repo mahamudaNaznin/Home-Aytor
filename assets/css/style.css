@@ -1,0 +1,81 @@
+/* Common Css Start */
+:root {
+    --theme-color: #FF6F61;
+    --title-color: #11161E;
+    --body-color: #444444;
+    --smoke-color: #f1f3f4;
+    --light-color: #828282;
+    --black-color: #000000;
+    --white-color: #ffffff;
+}
+h1,h2,h3,h4,h5,h6,
+p,
+small,
+ul,ol{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style-type: none;
+}
+a,a:hover{
+    text-decoration:none;
+}
+body,textarea{
+    font-family:'Open Sans', sans-serif;
+}
+/* Common Css end */
+
+
+#top_bar{
+    background-color: black;
+    padding: 11px 0;
+}
+#top_bar .item .cllr{
+    color: #fff;
+    font-size: 18px;
+}
+#top_bar .item .cllr i,
+#top_bar .item .cllr .clr{
+    color: var(--theme-color);
+    font-size: 18px;
+}
+#top_bar .linkup .line select{
+    border: none;
+    background: none;
+    color: #fff;
+}
+#top_bar .linkup .line li a{
+    color: #fff;
+    display: inline-block;
+    padding: 0 10px;
+    border-right: 1px solid #fff;
+    transition: .5s;
+    font-size: 16px;
+}
+#top_bar .linkup .line li a option{
+    transition: .5s;
+    color: black;
+}
+#top_bar .linkup .social-link li a{
+    padding: 0 8px;
+    color: #fff;
+    transition: .5s;
+}
+#top_bar .linkup .line select:hover,
+#top_bar .linkup .social-link li a:hover,
+#top_bar .linkup .line li a:hover{
+    color: var(--theme-color);
+}
+
+nav .nav-item{
+    padding: 0 10px;
+}
+nav .nav-item a:hover{
+    color: var(--theme-color);
+}
+nav .shop-c li a{
+    padding: 0 10px;
+    font-size: 20px;
+    color: var(--body-color);
+}
